@@ -1,0 +1,133 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "total": 9
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": 1
+        }
+    ],
+    "maxN": 9,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_gen_ref",
+            "report": "/tmp/tmpkmoy6zx1/register/gen_ref/_report/report.rst",
+            "result": "/tmp/tmpkmoy6zx1/register/gen_ref/result_gen_ref.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_boldref2target",
+            "report": "/tmp/tmp_bu5k5uo/register/boldref2target/_report/report.rst",
+            "result": "/tmp/tmp_bu5k5uo/register/boldref2target/result_boldref2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_fmap_select",
+            "report": "/tmp/tmpu2079d_h/register/fmap_select/_report/report.rst",
+            "result": "/tmp/tmpu2079d_h/register/fmap_select/result_fmap_select.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_distortion_params",
+            "report": "/tmp/tmp9acu523s/register/distortion_params/_report/report.rst",
+            "result": "/tmp/tmp9acu523s/register/distortion_params/result_distortion_params.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_bold2target",
+            "report": "/tmp/tmp2ysf6f9n/register/bold2target/_report/report.rst",
+            "result": "/tmp/tmp2ysf6f9n/register/bold2target/result_bold2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_fmap2target",
+            "report": "/tmp/tmpfc_ij0hx/register/fmap2target/_report/report.rst",
+            "result": "/tmp/tmpfc_ij0hx/register/fmap2target/result_fmap2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_inverses",
+            "report": "/tmp/tmpb27m_2x0/register/inverses/_report/report.rst",
+            "result": "/tmp/tmpb27m_2x0/register/inverses/result_inverses.pklz"
+        },
+        {
+            "group": 1,
+            "name": "7_fmap_recon",
+            "report": "/tmp/tmps0alleyv/register/fmap_recon/_report/report.rst",
+            "result": "/tmp/tmps0alleyv/register/fmap_recon/result_fmap_recon.pklz"
+        },
+        {
+            "group": 1,
+            "name": "8_resample",
+            "report": "/tmp/tmpsmvdcss9/register/resample/_report/report.rst",
+            "result": "/tmp/tmpsmvdcss9/register/resample/result_resample.pklz"
+        }
+    ]
+}

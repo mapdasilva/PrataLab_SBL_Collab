@@ -1,0 +1,72 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "1_boldref2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "2_fmap_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "3_distortion_params",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_boldref2target"
+        ],
+        "name": "4_bold2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_boldref2target"
+        ],
+        "name": "5_fmap2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_boldref2target"
+        ],
+        "name": "6_inverses",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_gen_ref",
+            "2_fmap_select",
+            "5_fmap2target",
+            "6_inverses"
+        ],
+        "name": "7_fmap_recon",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_gen_ref",
+            "4_bold2target",
+            "3_distortion_params",
+            "7_fmap_recon"
+        ],
+        "name": "8_resample",
+        "size": 1
+    }
+]

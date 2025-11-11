@@ -1,0 +1,133 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "total": 9
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": 1
+        }
+    ],
+    "maxN": 9,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_gen_ref",
+            "report": "/tmp/tmp2msy8oxr/bold_MNI6_wf/gen_ref/_report/report.rst",
+            "result": "/tmp/tmp2msy8oxr/bold_MNI6_wf/gen_ref/result_gen_ref.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_boldref2target",
+            "report": "/tmp/tmpw6s9nyrk/bold_MNI6_wf/boldref2target/_report/report.rst",
+            "result": "/tmp/tmpw6s9nyrk/bold_MNI6_wf/boldref2target/result_boldref2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_fmap_select",
+            "report": "/tmp/tmp0qqb56xc/bold_MNI6_wf/fmap_select/_report/report.rst",
+            "result": "/tmp/tmp0qqb56xc/bold_MNI6_wf/fmap_select/result_fmap_select.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_distortion_params",
+            "report": "/tmp/tmpzwyzlwx3/bold_MNI6_wf/distortion_params/_report/report.rst",
+            "result": "/tmp/tmpzwyzlwx3/bold_MNI6_wf/distortion_params/result_distortion_params.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_bold2target",
+            "report": "/tmp/tmpoxly7u0r/bold_MNI6_wf/bold2target/_report/report.rst",
+            "result": "/tmp/tmpoxly7u0r/bold_MNI6_wf/bold2target/result_bold2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_fmap2target",
+            "report": "/tmp/tmp8xt__6_c/bold_MNI6_wf/fmap2target/_report/report.rst",
+            "result": "/tmp/tmp8xt__6_c/bold_MNI6_wf/fmap2target/result_fmap2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_inverses",
+            "report": "/tmp/tmpq0o_yyxn/bold_MNI6_wf/inverses/_report/report.rst",
+            "result": "/tmp/tmpq0o_yyxn/bold_MNI6_wf/inverses/result_inverses.pklz"
+        },
+        {
+            "group": 1,
+            "name": "7_fmap_recon",
+            "report": "/tmp/tmpwq9qyr3r/bold_MNI6_wf/fmap_recon/_report/report.rst",
+            "result": "/tmp/tmpwq9qyr3r/bold_MNI6_wf/fmap_recon/result_fmap_recon.pklz"
+        },
+        {
+            "group": 1,
+            "name": "8_resample",
+            "report": "/tmp/tmpwlbqd3iy/bold_MNI6_wf/resample/_report/report.rst",
+            "result": "/tmp/tmpwlbqd3iy/bold_MNI6_wf/resample/result_resample.pklz"
+        }
+    ]
+}

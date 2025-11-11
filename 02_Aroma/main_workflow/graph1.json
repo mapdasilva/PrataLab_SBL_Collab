@@ -1,0 +1,70 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "total": 5
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        }
+    ],
+    "maxN": 5,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_gen_ref",
+            "report": "/tmp/tmpyf3dc_l5/main_workflow/register/gen_ref/_report/report.rst",
+            "result": "/tmp/tmpyf3dc_l5/main_workflow/register/gen_ref/result_gen_ref.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_boldref2target",
+            "report": "/tmp/tmp279flwli/main_workflow/register/boldref2target/_report/report.rst",
+            "result": "/tmp/tmp279flwli/main_workflow/register/boldref2target/result_boldref2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_bold2target",
+            "report": "/tmp/tmp26or3y42/main_workflow/register/bold2target/_report/report.rst",
+            "result": "/tmp/tmp26or3y42/main_workflow/register/bold2target/result_bold2target.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_resample",
+            "report": "/tmp/tmpxq_81tki/main_workflow/register/resample/_report/report.rst",
+            "result": "/tmp/tmpxq_81tki/main_workflow/register/resample/result_resample.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_export",
+            "report": "/tmp/tmp1r0ujh5e/main_workflow/export/_report/report.rst",
+            "result": "/tmp/tmp1r0ujh5e/main_workflow/export/result_export.pklz"
+        }
+    ]
+}

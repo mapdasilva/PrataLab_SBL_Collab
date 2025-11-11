@@ -1,0 +1,39 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "1_boldref2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_boldref2target"
+        ],
+        "name": "2_bold2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_gen_ref",
+            "2_bold2target"
+        ],
+        "name": "3_resample",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "3_resample"
+        ],
+        "name": "4_export",
+        "size": 1
+    }
+]
