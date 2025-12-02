@@ -30,9 +30,9 @@ def split_bold(nii):
         if os.path.isfile(output)==False:
             code, out, err = runproc(fsl_cmd)
             if code != 0:
-    print(f"Error in subject {subject} for video {video_id}")
-    print(out.decode('utf-8'))
-
+                print(f"Error in subject {subject} for video {video_id}")
+                print(out.decode('utf-8'))
+                
     return None
 
 result = pqdm(niis, split_bold, n_jobs=20)
