@@ -20,7 +20,7 @@ dummy_scans=5
 def split_bold(nii):
     subject=nii.split(os.sep)[-3].replace("BSCMR","")
     print(subject)
-    behavioral_csv=os.path.join("/mnt/f/MiguelWorkbench/Behavioral",f"B{subject}ISC","LEARN_RESULTS.csv")
+    behavioral_csv=os.path.join("/mnt/f/MiguelWorkbench/Behavioral",f"B{subject}ISC","ISC_VideoTimings_BSCMR{subject}.csv")
     times_df=pd.read_csv(behavioral_csv)
     for _, row in times_df.iterrows():
         video_id=row["video_id"][:-4]
@@ -29,8 +29,9 @@ def split_bold(nii):
         fsl_cmd = f'fslroi {nii} {output} {start_idx} {window_len}'
         if os.path.isfile(output)==False:
             code, out, err = runproc(fsl_cmd)
-            if err!=0 and err!=None:
-                print(f"Error in subject {subject} for video {video_id}")
+            if code != 0:
+    print(f"Error in subject {subject} for video {video_id}")
+    print(out.decode('utf-8'))
 
     return None
 
