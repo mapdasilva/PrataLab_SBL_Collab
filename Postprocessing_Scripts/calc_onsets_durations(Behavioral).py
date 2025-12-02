@@ -14,8 +14,9 @@ for file in files:
 
     for index, row in subj_df.iterrows():
         #Select TRs for each video 
-        start_idx=round(row['tVIDEO_START_ADJ']/1.85)+4 #gets the first TR for which its middle point overlaps with the video, then adds 3 for hemodynamic \
-                                                        #compensation and 1 extra for indexing starting at 1 (first TR is TR number 1)     
+        start_idx=round(row['tVIDEO_START_ADJ']/1.85)+4 
+        #gets the first TR for which its middle point overlaps with the video, then adds 3 for hemodynamic \
+        #compensation and 1 extra for indexing starting at 1 (first TR is TR number 1)     
         subj_df.at[index,'TR_first']=start_idx
         subj_df.at[index,'TR_last']=start_idx+18
 
